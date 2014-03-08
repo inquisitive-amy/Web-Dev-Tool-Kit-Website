@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ToolKit</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<div class="bgSecondary submit"></div>
+	<div class="container clearfix">
+		<nav>
+			<a href="#" class="dropDown">☰</a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li class="sub"><a href="#section">Sections</a>
+					<ul class="subNav">
+						<li><a href="html.html">HTML</a></li>
+						<li><a href="css.html">CSS</a></li>
+						<li><a href="images.html">Typography</a></li>
+						<li><a href="colour">Colour</a></li>
+						<li><a href="responsive.html">Responsive</a></li>
+						<li><a href="images.html">Images</a></li>
+					</ul> <!-- close subNav -->
+				</li>
+				<li><a href="submit.html">Submit</a></li> 
+			</ul>
+		</nav>
+
+		<div class="header">
+			<h2>Submit to the Kit</h2>
+			<h5 class="black">Do you have a great website you want added to the list? Fill out the form below.</h5>
+		</div>
+		
+		<div class="formcontent">
+			<div class="form">
+				<form action="sendEmail.php" method="post" class="submitForm" autocomplete="off" name="addName">
+				
+				<div class="field">
+				<label for="webAddress">Website</label>
+				<input type="url" name="webAddress" placeholder="http://" required>
+				</div>
+				
+				<label for="sections">What Section does the website belong to?</label>
+				
+				<div class="field button">
+				<input type="radio" name="section" value="html">
+				<label class="button" for="html">HTML</label>
+				</div>
+				
+				<div class="field button">
+				<input type="radio" name="section" value="css">
+				<label class="button" for="css">CSS</label>
+				</div>
+				
+				<div class="field button">
+				<input type="radio" name="section" value="typography">
+				<label class="button" for="typography">Typography</label>
+				</div>
+				
+				<div class="field button">
+				<input type="radio" name="section" value="colour">
+				<label class="button" for="colour">Colour</label>
+				</div>
+				
+				<div class="field button">
+				<input type="radio" name="section" value="responsive">
+				<label class="button" for="responsive">Responsive</label>
+				</div>
+				
+				<div class="field button">
+				<input type="radio" name="section" value="images">
+				<label class="button" for="images">Images</label>
+				</div>
+				
+				<div class="field">
+				<label for="firstName">First Name</label>
+				<input class="firstName" type="text" name="firstname" required>
+				</div>
+				
+				<div class="field">
+				<label for="lastName">Last Name</label>
+				<input class="lastName" type="text" name="lastName" required>
+				</div>
+				
+				<div class="field">
+				<label for="email">Email Address</label>
+				<input type="Email" name="email">
+				</div>
+
+				<input type="submit" class="submit" value="Submit" >
+
+				</form>
+			</div><!-- .form -->
+		</div><!-- .formcontent  -->
+
+		<footer class="white">
+			<p>Web Dev Kit &copy;2014</p>
+			<ul>
+				<li><a href="index.file:///Users/amyallen/Documents/HackerYou/Projects/Project2_AmyAllen/submit.htmlhtml">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">Typography</a></li>
+				<li><a href="#">Colour</a></li>
+				<li><a href="#">Responsive</a></li>
+				<li><a href="images.html">Images</a></li>
+			</ul>
+		</footer>
+
+	</div><!-- .container .clearfix -->
+	<!-- Loading jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- Linking JavaScript Files -->
+	<script src="js/script.js"></script>	
+
+</body>
+</html>

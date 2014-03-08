@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ToolKit</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300' rel='stylesheet' type='text/css'>
+</head>
+<body>	
+	<div class="container home clearfix">
+		<nav>
+			<a href="#" class="dropDown">☰</a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li class="sub"><a href="#section">Sections</a>
+					<ul class="subNav">
+						<li><a href="html.html">HTML</a></li>
+						<li><a href="css.html">CSS</a></li>
+						<li><a href="images.html">Typography</a></li>
+						<li><a href="colour">Colour</a></li>
+						<li><a href="responsive.html">Responsive</a></li>
+						<li><a href="images.html">Images</a></li>
+					</ul> <!-- close subNav -->
+				</li>
+				<li><a href="submit.html">Submit</a></li> 
+			</ul>
+		</nav>
+		<div class="title">
+			<h1>W<span class="char1">E</span>B D<span class="char5">E</span>V KIT</h1>
+			<h5 class="bold">All of your favourite resources for web development in one place. </h5>
+			<a class="website"href="submit.html">Submit a Website</a>
+		</div>
+
+		<div class="imageHovers clearfix" id="imageHovers">
+			<a href="html.html" data-image="image1"><h3>HTML</h3></a>
+			<a href="css.html" data-image="image2"><h3>CSS</h3></a>
+			<a href="typography.html" data-image="image3"><h3>Typography</h3></a>
+			<a href="colour.html" data-image="image4"><h3>Colour</h3></a>
+			<a href="responsive.html" data-image="image5"><h3>Responsive</h3></a>
+			<a href="images.html" data-image="image6"><h3>Images</h3></a>
+		</div>
+
+	</div><!-- innerwrapper -->
+
+	<div class="background image1 "></div>
+	<div class="background image2"></div>
+	<div class="background image3"></div>
+	<div class="background image4"></div>
+	<div class="background image5"></div>
+	<div class="background image6 current"></div>
+
+	<!-- Loading jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- Linking JavaScript Files -->
+	<script src="js/script.js"></script>	
+</body>
+</html>
